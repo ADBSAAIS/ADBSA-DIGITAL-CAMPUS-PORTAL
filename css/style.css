@@ -1,1 +1,121 @@
-/* ADBSA Digital Campus Portal CSS */
+/* ===========================
+   GLOBAL STYLES
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    background:#003366;
+    color:white;
+    padding:15px 50px;
+}
+
+.logo-area{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.logo-area img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+.logo-area h1{
+    font-size:32px;
+    margin-bottom:5px;
+}
+
+.logo-area p{
+    font-size:18px;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+nav{
+    margin-top:20px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#FFD700;
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(rgba(0,51,102,.75),rgba(0,51,102,.75));
+    color:white;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:50px;
+    margin:20px 0;
+}
+
+.hero-content h2{
+    font-size:25px;
+}
+
+.hero-content h3{
+    margin-top:20px;
+    font-style:italic;
+    color:#FFD700;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#FFD700;
+    color:#003366;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:white;
+}
