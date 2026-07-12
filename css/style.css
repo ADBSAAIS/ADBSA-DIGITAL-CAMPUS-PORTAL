@@ -1,7 +1,3 @@
-/* ===========================
-   GLOBAL STYLES
-=========================== */
-
 *{
     margin:0;
     padding:0;
@@ -15,10 +11,6 @@ body{
     line-height:1.6;
 }
 
-/* ===========================
-   HEADER
-=========================== */
-
 header{
     background:#003366;
     color:white;
@@ -27,95 +19,130 @@ header{
 
 .logo-area{
     display:flex;
-    align-items:center;
     justify-content:space-between;
+    align-items:center;
     flex-wrap:wrap;
 }
 
 .logo-area img{
     width:90px;
     height:90px;
-    object-fit:contain;
 }
-
-.logo-area h1{
-    font-size:32px;
-    margin-bottom:5px;
-}
-
-.logo-area p{
-    font-size:18px;
-}
-
-/* ===========================
-   NAVIGATION
-=========================== */
-
 nav{
     margin-top:20px;
 }
 
 nav ul{
+    list-style:none;
     display:flex;
     justify-content:center;
-    list-style:none;
-    gap:25px;
     flex-wrap:wrap;
+    gap:15px;
 }
 
 nav ul li a{
     color:white;
     text-decoration:none;
-    font-weight:bold;
+    padding:10px 15px;
+    border-radius:5px;
     transition:.3s;
+    font-weight:bold;
 }
 
 nav ul li a:hover{
-    color:#FFD700;
+    background:#ffcc00;
+    color:#003366;
 }
-
-/* ===========================
-   HERO SECTION
-=========================== */
 
 .hero{
-    height:80vh;
+    background:linear-gradient(rgba(0,51,102,.75),rgba(0,51,102,.75)),
+    url('images/school-bg.jpg');
+    background-size:cover;
+    background-position:center;
+    min-height:500px;
     display:flex;
-    justify-content:center;
     align-items:center;
+    justify-content:center;
     text-align:center;
-    background:linear-gradient(rgba(0,51,102,.75),rgba(0,51,102,.75));
     color:white;
-    padding:20px;
-}
-
-.hero-content h1{
-    font-size:50px;
-    margin:20px 0;
+    padding:50px;
 }
 
 .hero-content h2{
-    font-size:25px;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.hero-content h1{
+    font-size:52px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:22px;
+    margin-bottom:20px;
 }
 
 .hero-content h3{
-    margin-top:20px;
-    font-style:italic;
-    color:#FFD700;
+    margin-bottom:30px;
+    font-weight:normal;
 }
-
 .btn{
     display:inline-block;
-    margin-top:30px;
-    padding:15px 35px;
-    background:#FFD700;
+    background:#ffcc00;
     color:#003366;
+    padding:15px 35px;
     text-decoration:none;
-    border-radius:50px;
+    border-radius:6px;
     font-weight:bold;
     transition:.3s;
 }
 
 .btn:hover{
     background:white;
+    transform:translateY(-3px);
+}
+
+section{
+    padding:70px 10%;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:25px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.logo-area{
+    flex-direction:column;
+    text-align:center;
+}
+
+nav ul{
+    flex-direction:column;
+}
+
+.hero-content h1{
+    font-size:34px;
+}
+
+.hero-content h2{
+    font-size:22px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
 }
