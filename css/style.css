@@ -56,7 +56,7 @@ nav ul li a:hover{
 
 .hero{
     background:linear-gradient(rgba(0,51,102,.75),rgba(0,51,102,.75)),
-    url('images/school-bg.jpg');
+    url('../images/hero-banner.jpg');
     background-size:cover;
     background-position:center;
     min-height:500px;
