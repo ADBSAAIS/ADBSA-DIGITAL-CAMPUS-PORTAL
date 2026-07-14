@@ -415,3 +415,49 @@ nav ul{
     }
 
 }
+<!-- SCHOOL LEADERS -->
+
+<section class="leaders">
+
+    <div class="container">
+
+        <h2 class="section-title">Meet Our School Leaders</h2>
+
+        <div class="leaders-grid">
+
+            <div class="leader-card">
+
+                <img src="images/principal.jpg" alt="School Head">
+
+                <h3>Romualdo M. Cañeda Jr.</h3>
+
+                <span>School Head</span>
+
+                <p>
+                    Leading ADBSA Aeta Integrated School with dedication,
+                    integrity, and commitment to quality education.
+                </p>
+
+            </div>
+
+            <div class="leader-card">
+
+                <img src="images/asp.jpg" alt="Assistant School Principal">
+
+                <h3>Richard S. Nakpil</h3>
+
+                <span>Master Teacher II<br>OIC Assistant School Principal</span>
+
+                <p>
+                    Passionate in instructional leadership,
+                    digital innovation,
+                    and community partnership for Indigenous learners.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
