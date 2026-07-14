@@ -279,3 +279,8 @@ nav ul{
     font-size:18px;
 
 }
+.about{
+
+    flex-direction:column;
+
+}
