@@ -546,3 +546,14 @@ nav ul{
     color:#666;
 
 }
+@media(max-width:768px){
+
+.principal-container{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+}
