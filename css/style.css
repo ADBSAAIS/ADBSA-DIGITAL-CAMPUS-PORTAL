@@ -752,3 +752,57 @@ font-weight:bold;
     margin-bottom:15px;
     font-size:20px;
 }
+/* ================= ABOUT SECTION ================= */
+
+.about{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+    padding:80px 10%;
+    background:#fff;
+    flex-wrap:wrap;
+}
+
+.about-image{
+    flex:1;
+    min-width:320px;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+.about-text{
+    flex:1;
+    min-width:320px;
+}
+
+.about-text h2{
+    font-size:48px;
+    color:#0b3b78;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.about-text ul{
+    list-style:none;
+    padding:0;
+}
+
+.about-text ul li{
+    font-size:20px;
+    margin-bottom:12px;
+}
+
+.about .btn{
+    display:inline-block;
+    margin-top:20px;
+}
