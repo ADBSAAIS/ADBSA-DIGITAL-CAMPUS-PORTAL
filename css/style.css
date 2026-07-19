@@ -885,3 +885,50 @@ font-weight:bold;
 
 ...
 }
+/* ================= QUICK ACCESS ================= */
+
+.quick-access{
+    padding:80px 10%;
+    background:#f5f9ff;
+    text-align:center;
+}
+
+.quick-access .section-subtitle{
+    max-width:700px;
+    margin:15px auto 50px;
+    font-size:18px;
+    color:#555;
+    line-height:1.8;
+}
+
+.quick-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.quick-card{
+    background:#ffffff;
+    padding:35px 25px;
+    border-radius:18px;
+    text-decoration:none;
+    color:#003b80;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.quick-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.quick-card span{
+    font-size:48px;
+    display:block;
+    margin-bottom:20px;
+}
+
+.quick-card h3{
+    font-size:22px;
+    line-height:1.5;
+}
