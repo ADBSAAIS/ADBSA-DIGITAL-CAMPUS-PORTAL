@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Resources Center | ADBSA AETA Integrated School</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        .resources-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .resources-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .resources-header h1 {
+            color: #003366;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .resources-header p {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+        }
+
+        .resource-card {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+        }
+
+        .resource-card .icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .resource-card h2 {
+            color: #003366;
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+        }
+
+        .resource-card p {
+            color: #555;
+            min-height: 50px;
+        }
+
+        .resource-card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .resource-card a:hover {
+            background: #0055a5;
+        }
+
+        .back-home {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="resources-header">
+            <h1>📚 Resources Center</h1>
+            <p>
+                Educational materials and useful resources for learners, teachers,
+                parents, and school stakeholders.
+            </p>
+        </div>
+    </header>
+
+    <main class="resources-container">
+
+        <div class="resources-grid">
+
+            <div class="resource-card">
+                <div class="icon">📖</div>
+                <h2>Learning Resources</h2>
+                <p>
+                    Access learning materials and educational resources
+                    for learners.
+                </p>
+                <a href="#">Open Resources</a>
+            </div>
+
+            <div class="resource-card">
+                <div class="icon">📝</div>
+                <h2>Teacher Resources</h2>
+                <p>
+                    Teaching materials, templates, lesson resources,
+                    and useful teacher references.
+                </p>
+                <a href="#">Open Resources</a>
+            </div>
+
+            <div class="resource-card">
+                <div class="icon">📄</div>
+                <h2>DepEd Forms</h2>
+                <p>
+                    Useful forms and documents for school personnel
+                    and stakeholders.
+                </p>
+                <a href="#">Open Forms</a>
+            </div>
+
+            <div class="resource-card">
+                <div class="icon">📚</div>
+                <h2>Reading Materials</h2>
+                <p>
+                    Reading materials and resources that support
+                    literacy development.
+                </p>
+                <a href="#">Open Materials</a>
+            </div>
+
+            <div class="resource-card">
+                <div class="icon">💻</div>
+                <h2>Digital Learning Resources</h2>
+                <p>
+                    Digital tools and online learning resources
+                    for educational purposes.
+                </p>
+                <a href="#">Open Resources</a>
+            </div>
+
+            <div class="resource-card">
+                <div class="icon">🏫</div>
+                <h2>School Templates</h2>
+                <p>
+                    School-related templates, documents, and
+                    downloadable materials.
+                </p>
+                <a href="#">Open Templates</a>
+            </div>
+
+        </div>
+
+        <div class="back-home">
+            <a href="../index.html">⬅ Back to Home</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
