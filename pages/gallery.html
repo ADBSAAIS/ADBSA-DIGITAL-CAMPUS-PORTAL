@@ -1,1 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Gallery | ADBSA Aeta Integrated School</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        .gallery-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .gallery-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .gallery-header h1 {
+            color: #003366;
+            font-size: 2.3rem;
+            margin-bottom: 10px;
+        }
+
+        .gallery-header p {
+            color: #555;
+            font-size: 1.05rem;
+        }
+
+        .gallery-section {
+            margin-bottom: 45px;
+        }
+
+        .gallery-section h2 {
+            color: #003366;
+            border-bottom: 3px solid #003366;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-card {
+            background: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+        }
+
+        .gallery-card img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .gallery-card-content h3 {
+            color: #003366;
+            margin-bottom: 8px;
+        }
+
+        .gallery-card-content p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .photo-placeholder {
+            height: 210px;
+            background: #f0f2f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #777;
+            padding: 20px;
+        }
+
+        .back-home {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>📸 School Gallery</h1>
+        <p>ADBSA Aeta Integrated School</p>
+    </header>
+
+    <main class="gallery-container">
+
+        <div class="gallery-header">
+            <h1>Our School in Pictures</h1>
+            <p>
+                A collection of memorable activities, achievements,
+                community engagements, and school development initiatives.
+            </p>
+        </div>
+
+        <!-- SCHOOL ACTIVITIES -->
+
+        <section class="gallery-section">
+
+            <h2>🏫 School Activities</h2>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>School Programs</h3>
+                        <p>
+                            School programs and activities that bring
+                            learners and teachers together.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>Brigada Eskwela</h3>
+                        <p>
+                            Stakeholders working together to support
+                            a safe and welcoming school environment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>School Celebrations</h3>
+                        <p>
+                            Memorable celebrations and meaningful
+                            school events.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- STAKEHOLDER ENGAGEMENT -->
+
+        <section class="gallery-section">
+
+            <h2>🤝 Stakeholder Engagement</h2>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>Community Partnership</h3>
+                        <p>
+                            Partnerships and cooperation with parents,
+                            community members, and stakeholders.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>School Support</h3>
+                        <p>
+                            Support from partners and organizations
+                            for the development of the school.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+
+        <section class="gallery-section">
+
+            <h2>🏆 Achievements</h2>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>Learner Achievements</h3>
+                        <p>
+                            Recognizing the accomplishments and
+                            successes of our learners.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-content">
+                        <div class="photo-placeholder">
+                            📷 Photo to be added
+                        </div>
+                        <h3>School Awards</h3>
+                        <p>
+                            Celebrating achievements and milestones
+                            of the school community.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SCHOOL DEVELOPMENT -->
+
+        <section class="gallery-section">
+
+            <h2>🏗️ School Development</h2>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>School Facilities</h3>
+                        <p>
+                            School facilities and development projects
+                            supporting the learning environment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="photo-placeholder">
+                        📷 Photo to be added
+                    </div>
+
+                    <div class="gallery-card-content">
+                        <h3>Community Projects</h3>
+                        <p>
+                            Projects that strengthen the school and
+                            the community.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="back-home">
+            <a href="../index.html">⬅ Back to Home</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
